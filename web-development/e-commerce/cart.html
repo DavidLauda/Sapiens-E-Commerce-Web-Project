@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <a href="#"
+        ><img src="img/Sapiens-logo-2.png" alt="Sapiens Logo" id="sapiensLogo"
+      /></a>
+
+      <div>
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html"
+              class="active"><i class="material-symbols-outlined" > shopping_cart </i></a
+            >
+          </li>
+          <ion-icon name="chevron-forward-outline" class="close"></ion-icon>
+        </ul>
+      </div>
+
+      <div class="mobile">
+        <a href="cart.html"
+          ><i class="material-symbols-outlined"> shopping_cart </i></a
+        >
+        <ion-icon name="chevron-back-outline" class="hamburger"></ion-icon>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header cart-header">
+        <h2>Checkout</h2>
+        <p class="hero__p">Thanks for trusting us.</p>
+      </section>
+
+      <section class="cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><ion-icon name="close-outline"></ion-icon></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Summer Button Down</td>
+                    <td>Rp. 300.000</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rp. 300.000</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><ion-icon name="close-outline"></ion-icon></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Blossom Button Down</td>
+                    <td>Rp. 300.000</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rp. 300.000</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><ion-icon name="close-outline"></ion-icon></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Rose Button Down</td>
+                    <td>Rp. 300.000</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rp. 300.000</td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+
+      <section class="cart-add">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+
+        <div class="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Rp. 900.000</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rp. 900.000</strong></td>
+                </tr>
+            </table>
+            <button>Checkout</button>
+        </div>
+      </section>
+
+  
+    </main>
+
+    <footer class="sapiens-footer">
+      <div class="footer-col">
+        <img
+          src="img/Sapiens-logo-2.png"
+          alt="sapiensLogo.png"
+          id="sapiensLogo"
+          class="logo"
+        />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> Jl. Laughing Street No. 13 Kab. Gianyar,
+          Bali
+        </p>
+        <p><strong>Phone:</strong> +62 812 6967 8420</p>
+        <p class="footer-hours"><strong>Hours:</strong> 07:00 - 21:00</p>
+
+        <div class="footer-follow">
+          <h4>Follow Us</h4>
+          <div class="footer-icon">
+            <ion-icon name="logo-facebook" class="footer-icon1"></ion-icon>
+            <ion-icon name="logo-twitter" class="footer-icon2"></ion-icon>
+            <ion-icon name="logo-instagram" class="footer-icon3"></ion-icon>
+            <ion-icon name="logo-tiktok" class="footer-icon4"></ion-icon>
+            <ion-icon name="logo-youtube" class="footer-icon5"></ion-icon>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play Store</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="App Store" />
+          <img src="img/pay/play.jpg" alt="Google Play Store" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="Payment Methods" />
+      </div>
+
+      <div class="copyright">
+        <p>&copy;2025, David Lauda, E-commerce Web Project</p>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
