@@ -1,3 +1,3 @@
 **For the web preview, follow the link below:**
 
-  sapiens-ecommerce-web.netlify.appa
+  sapiens-ecommerce-web.netlify.app
